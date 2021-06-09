@@ -1,0 +1,13 @@
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Nome</th>
+  </tr>
+
+  <% users.forEach(user => { %> 
+    <tr>
+        <td><%= user.id %></td>
+        <td><%= user.nome %></td>
+    </tr>
+  <% }); %>
+</table>
